@@ -10,13 +10,38 @@ public class StringOperation {
 		System.out.println(sub);*/
 		
 		String str="SudharShini";
-		String str1="sudhar";
 		String str2="SUDHARSHINI";
 		/*System.out.println(str.toLowerCase());
 		System.out.println(str.toUpperCase());
-		System.out.println(str.replace('S', '❤'));*/
+		System.out.println(str.replace('S', '❤'));
 		System.out.println(str.equals(str2));
 		System.out.println(str.equalsIgnoreCase(str2));
+		System.out.println(str.charAt(6));*/
+		/*String lan="Java,Python,C";
+		String[] language=lan.split(",");
+		for(String s:language) {
+			System.out.println(s);
+		}*/
+		/*String a="hello  ";
+		String b="d";
+		System.out.println(a.concat(b));*/
+		
+		/*String my="    laddoo   ";
+		System.out.println(my);
+		System.out.println(my.length());
+		System.out.println(my.strip());*/
+		
+		String f1="apple";
+		String f2="banana";
+		System.out.println(f1.compareTo(f2));
+		
+		System.out.println(str2.contains("HARSHINI"));
+		
+		String a="apple";
+		String b= new String("apple");
+		String c=a.intern();
+		System.out.println(a==b);
+		System.out.println(b==c);
 	}
 
 }
